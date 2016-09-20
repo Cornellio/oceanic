@@ -1,0 +1,9 @@
+Lookup ocean temperatures from NOAA
+
+## API
+
+https://tidesandcurrents.noaa.gov/api/#requestResponse
+
+Example to lookup water temp at Monterey:
+
+curl "http://tidesandcurrents.noaa.gov/api/datagetter?date=latest&station=9413450&product=water_temperature&application=vx&units=english&format=json&time_zone=gmt"
