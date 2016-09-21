@@ -41,8 +41,9 @@ def parse_args():
     parser.add_argument('-a', help='Dashing authentication token',
                         required=True, dest='authtoken')
 
-    args          = parser.parse_args()
+    args = parser.parse_args()
     return args
+
 
 def main(arg):
     pass
